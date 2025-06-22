@@ -13,8 +13,10 @@ document.getElementById('fuelForm').addEventListener('submit', function(event) {
     const fuelNeeded = (distance / 100) * consumption;
     const totalCost = fuelNeeded * cost;
 
-    document.getElementById('result').innerHTML = `
+    const resultDiv = document.getElementById('result');
+    resultDiv.innerHTML = `
         <p>Potrzebne paliwo: ${fuelNeeded.toFixed(2)} litrów</p>
         <p>Całkowity koszt podróży: ${totalCost.toFixed(2)} zł</p>
     `;
+    resultDiv.classList.add('show');
 });
