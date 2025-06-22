@@ -2,7 +2,9 @@
 
 Nowoczesna aplikacja webowa do obliczania kosztu paliwa na podstawie długości trasy, średniego spalania oraz ceny paliwa. 🛣️💨
 
-<img src="screenshot.png" alt="Kalkulator Kosztu Paliwa Screenshot" width="500" align="center"/>
+<div align="center">
+   <img src="screenshot.png" alt="Kalkulator Kosztu Paliwa Screenshot" width="500"/>
+</div>
 
 ## 🌟 Funkcje
 
